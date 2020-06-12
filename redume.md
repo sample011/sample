@@ -1,0 +1,5 @@
+- width
+  - header
+  - bgimg
+  - title-container
+  - item

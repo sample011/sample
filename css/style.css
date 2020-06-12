@@ -1,0 +1,221 @@
+/* css リセット */
+.dummy-div {
+  clear: both; /* float解除 */
+  /*  addtag  <div class="dummy-div"></div>  */
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: auto; */
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+/* ----------------- ここから--------------- */
+/* header */
+header {
+  height: auto;
+  margin: 0 auto;
+}
+/* header-up */
+.header-up {
+  margin-top: 10px;
+}
+
+.header-logo {
+  width: 140px;
+  height: 40px;
+}
+
+.logo-left {
+  text-align: left;
+  float: left;
+  /* display: block; */
+}
+
+.serch-right {
+  text-align: right;
+}
+
+form {
+  position: relative;
+}
+
+input {
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 840px;
+  height: 40px;
+  padding: 0 50px 0 10px;
+  border-radius: 4px;
+  border: solid 1px #b6b5b5;
+  background-color: rgb(245, 245, 245);;
+}
+
+.serch-btn {
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(70, 68, 68);
+  height: 40px;
+  margin: 0;
+  position:absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 14px;
+}
+
+/* header-down */
+.header-down {
+  margin-top: 8px;
+  line-height: 40px;
+}
+
+.serch-tag {
+  display: flex;
+  color: #333333;
+  font-size: 15;
+  font-weight: bolder;
+}
+
+.tag-container {
+  display: flex;
+  text-align: left;
+  float: left;
+  display: inline-flex;
+}
+
+.tag-left {
+  padding-right: 10px;
+}
+
+.tag-right {
+  padding-left: 10px;
+}
+
+.header-icon {
+  color: rgb(234, 53, 45);
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.btn-container {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  display: inline-flex;
+}
+
+.btn-right {
+  margin-left: 11px;
+}
+
+.btn-left {
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.signup {
+  background-color: rgb(234, 53, 45);
+  color: #fff;
+  border: solid 1px rgb(234, 53, 45);
+  padding: 8px 10px;
+  border-radius: 5px;
+
+}
+.login {
+  border: solid 1px rgb(0, 149, 238);
+  background-color: #fff;
+  color: rgb(0, 149, 238);
+  padding: 8px 10px;
+  border-radius: 5px;
+  /* margin-left: 11px; */
+}
+/* バックグラウンドイメージ */
+.bgimg1 {
+  height: 250px;
+  background-image: url(https://tpc.googlesyndication.com/simgad/6843176271545405787?);
+  background-position: center;
+  margin-top: 5px;
+}
+/* .bgimg2 {
+  height: 250px;
+  background-image: url(https://web-jp-assets.mercdn.net/_next/static/images/download_app_bg-b57d6f1….jpg);
+  background-position: center;
+} */
+
+/* main */
+/* title-container */
+.title-container {
+  padding: 56px 0 30px;
+}
+
+.tag-title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.tag-list {
+  text-align: center;
+}
+
+.tag-list li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color:rgb(239, 239, 239);
+  padding: 8px 16px;
+  border-radius: 15px;
+  line-height: 14px;
+}
+
+.tag-item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* item */
+.item {
+  background-color: rgb(243, 239, 239);
+  padding : 42px 0 100px;
+}
+
+.item-label {
+  margin-bottom: 16px;
+}
+
+.item-title {
+  float: left;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.more-item {
+  float: right;
+  margin-top: 5px;
+}
+
+.item-card {
+  padding: 10px;
+}
